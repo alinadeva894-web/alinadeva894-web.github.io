@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Canonical domain: https://pixelkit.eu.org (pending KING's name
+     confirmation + eu.org approval). Replace the domain here, in robots.txt
+     and in index.html only if the final deployed domain changes. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://pixelkit.eu.org/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/tools</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/image-compressor</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/resize-image</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/image-converter</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/jpg-to-png</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/png-to-jpg</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/jpg-to-webp</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/image-cropper</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/image-rotator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/image-flipper</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/image-watermark</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/bulk-image-resizer</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/image-to-100kb</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/image-to-200kb</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/image-to-500kb</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/youtube-thumbnail-resizer</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/instagram-image-resizer</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/pricing</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/about</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/contact</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/privacy-policy</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/terms</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/disclaimer</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://pixelkit.eu.org/#/faq</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>

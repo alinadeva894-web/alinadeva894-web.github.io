@@ -1,0 +1,15 @@
+# ads.txt — PixelKit
+#
+# This file is a PLACEHOLDER. It contains NO real publisher ID and NO fake
+# ads.txt line, so no ad can be served from it and nothing is misrepresented.
+#
+# WHEN AdSense is approved (see docs/MONETIZATION.md and docs/DEPLOYMENT.md):
+# replace this whole file with ONE line using KING's real publisher ID:
+#
+#   google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+#
+# Replace "pub-XXXXXXXXXXXXXXXX" with the real publisher ID from KING's
+# AdSense account (Account > Account information). The "pub-" number is the
+# same number that appears in the "ca-pub-XXXXXXXXXXXXXXXX" publisher ID,
+# without the "ca-" prefix. Then redeploy the site so the file is live at
+# https://pixelkit.eu.org/ads.txt
