@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- No static meta description here: each route sets its own via
+         react-helmet-async. A static one would duplicate (and shadow) the
+         per-page description. See TEST_REPORT.md BUG-1. -->
+    <!-- Canonical domain: https://pixelkit.eu.org (pending KING's name
+         confirmation + eu.org approval). Until then the live preview is the
+         Cloudflare Pages *.pages.dev address. See docs/DEPLOYMENT.md. -->
+    <link rel="canonical" href="https://pixelkit.eu.org/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="PixelKit" />
+    <meta property="og:title" content="PixelKit — Free Online Image Tools" />
+    <meta
+      property="og:description"
+      content="Compress, resize, convert and edit images instantly. Free, simple and private — your images never leave your browser."
+    />
+    <meta property="og:url" content="https://pixelkit.eu.org/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="PixelKit — Free Online Image Tools" />
+    <meta
+      name="twitter:description"
+      content="Compress, resize, convert and edit images instantly. Free, simple and private."
+    />
+    <title>PixelKit — Free Online Image Tools</title>
+    <script>
+      // Apply saved theme before first paint (avoids a light/dark flash).
+      try {
+        var t = localStorage.getItem("pixelkit-theme");
+        if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+          document.documentElement.classList.add("dark");
+        }
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/assets/index-Bv0KZqmA.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CF2H1KT3.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="font-family: sans-serif; padding: 2rem; text-align: center;">
+        PIXELKIT needs JavaScript enabled to run its free image tools.
+        Please enable JavaScript and reload the page.
+      </p>
+    </noscript>
+  </body>
+</html>
